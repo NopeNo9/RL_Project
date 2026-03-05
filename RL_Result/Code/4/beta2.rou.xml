@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-04-02 11:20:33 by Eclipse SUMO netedit Version 1.22.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="car" accel="2.6" decel="4.5" maxSpeed="13.89" length="5.0"/>
+    <!-- Routes -->
+    <route id="r_0" edges="E0 E1"/>
+    <route id="r_1" edges="E0 E3"/>
+    <route id="r_10" edges="-E1 E2"/>
+    <route id="r_11" edges="-E1 E3"/>
+    <route id="r_2" edges="E0 E2"/>
+    <route id="r_3" edges="-E2 -E0"/>
+    <route id="r_4" edges="-E2 E1"/>
+    <route id="r_5" edges="-E2 E3"/>
+    <route id="r_6" edges="-E3 E2"/>
+    <route id="r_7" edges="-E3 -E0"/>
+    <route id="r_8" edges="-E3 E1"/>
+    <route id="r_9" edges="-E1 -E0"/>
+
+    <!--  Add flows for vehicle generation  -->
+    <flow id="flow_r_11" type="car" begin="0.00" end="3600.00" route="r_11" period="3.5"/>
+    <flow id="flow_r_3" type="car" begin="0.00" end="3600.00" route="r_3" period="2.0"/>
+    <flow id="flow_r_6" type="car" begin="0.00" end="3600.00" route="r_6" period="2.0"/>
+    <flow id="flow_r_9" type="car" begin="0.00" end="3600.00" route="r_9" period="1.5"/>
+    <flow id="flow_r_0"  type="car" begin="0" end="3600" route="r_0"  period="0.3"/>
+    <flow id="flow_r_1"  type="car" begin="0" end="3600" route="r_1"  period="0.3"/>
+    <flow id="flow_r_2"  type="car" begin="0" end="3600" route="r_2"  period="0.4"/>
+    <flow id="flow_r_4"  type="car" begin="0" end="3600" route="r_4"  period="0.4"/>
+    <flow id="flow_r_5"  type="car" begin="0" end="3600" route="r_5"  period="0.35"/>
+    <flow id="flow_r_7"  type="car" begin="0" end="3600" route="r_7"  period="0.3"/>
+    <flow id="flow_r_8"  type="car" begin="0" end="3600" route="r_8"  period="0.35"/>
+    <flow id="flow_r_10" type="car" begin="0" end="3600" route="r_10" period="0.4"/>
+</routes>

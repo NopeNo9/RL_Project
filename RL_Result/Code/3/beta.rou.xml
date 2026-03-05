@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+    <!-- Vehicle Type -->
+    <vType id="car" accel="2.6" decel="4.5" maxSpeed="13.89" length="5.0"/>
+
+    <!-- Routes -->
+    <route id="r_0" edges="E0 E1"/>
+    <route id="r_1" edges="E0 E2"/>
+    <route id="r_2" edges="-E2 E1"/>
+    <route id="r_3" edges="-E2 -E0"/>
+    <route id="r_4" edges="-E1 E2"/>
+    <route id="r_5" edges="-E1 -E0"/>
+
+    <!-- Super Traffic Flows -->
+    <flow id="flow_r_0"  type="car" begin="0" end="3600" route="r_0"  period="0.25"/>
+    <flow id="flow_r_1"  type="car" begin="0" end="3600" route="r_1"  period="0.3"/>
+    <flow id="flow_r_2"  type="car" begin="0" end="3600" route="r_2"  period="0.8"/>
+    <flow id="flow_r_3"  type="car" begin="0" end="3600" route="r_3" period="1.25"/>
+    <flow id="flow_r_4"  type="car" begin="0" end="3600" route="r_4"  period="0.4"/>
+    <flow id="flow_r_5"  type="car" begin="0" end="3600" route="r_5"  period="0.35"/>
+
+</routes>
